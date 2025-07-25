@@ -97,6 +97,13 @@
 	color: #9aeac6;
 }
 
+.footer ul{
+	list-style-type: none; /* Removes the bullet points */
+  padding: 0; /* Optional: removes padding */
+  margin: 0; /* Optional: removes margin */
+}
+
+
 ul li
 {
 	display: inline;
