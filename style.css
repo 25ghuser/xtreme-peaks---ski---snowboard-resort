@@ -92,14 +92,6 @@
     color: #9aeac6;
 }
 
-
-.footer a{
-	text-decoration: none;
-    color: #9aeac6;
-	list-style-type: none; /* Removes the bullet points */
-}
-
-
 ul li
 {
 	display: inline;
