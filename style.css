@@ -1,0 +1,361 @@
+.mainWrapper
+{
+	width: 100%;
+    height: 1772px;
+    margin: 0 auto;
+}
+
+.header
+{
+    width: 100%;
+    height: 145px;
+    background-color: #de4c3c;
+
+}
+
+.navigation
+{
+    width: 958px;
+    height: 50px;
+    margin: 0 auto; 
+    border-width: 10px;
+}
+
+.navigation ul li a
+{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 14px;
+    font-weight: 500;
+    color: #0d0b26;
+    text-decoration: none;
+}
+
+.peak
+{
+    position: relative;
+    width: 100%;
+    height: 810px;
+    overflow: hidden;
+}
+.peak img {
+  width: 100%;
+  height: 810px;
+  display: block;
+}
+
+.peak::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(222, 76, 60, 0.5); /* semi-transparent red */
+  pointer-events: none; /* so clicks go through */
+}
+
+
+.experience
+{
+    position: relative;
+    width: 100%;
+    height: 2070px;
+    overflow: hidden;
+    background-color: #de4c3c;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 14px;
+    font-weight: 550;   
+}
+
+.experience img {
+  width: 620px;
+  height: 121px;
+  display: block;
+}
+
+.experience-text h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 90px;
+  font-weight: 800; /* Extra Bold */
+  color: #0d0b26; /* or any color you want */
+  line-height: 1.2;
+}
+
+.footer
+{
+    width: 100%;
+    height: 120px;
+    background-color: #0D0B26;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 14px;
+    font-weight: 550;   
+    color: #9AEAC6;
+    text-decoration: none;
+}
+
+ul li
+{
+	display: inline;
+	padding: 15px;
+    margin-left: 0;
+}
+ul li a
+{
+	color: #000000;
+	font-family: 'Poppins', sans-serif; 
+}
+
+ul li:hover
+{
+    font-weight: 600;
+}
+ul li a:hover
+{
+    font-weight: 600;
+}
+
+
+.header table
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px; 
+    border-width: 2px;  
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 80px;
+  font-weight: 1000; /* Extra Bold */
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 20px;
+  white-space: nowrap;       /* Prevent line breaks */
+  overflow: hidden;          /* Hide overflow text (optional) */
+  text-overflow: ellipsis;
+}
+
+.text-overlay2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 16px;
+  font-weight: 400; 
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding: 20px;
+  white-space: nowrap;       /* Prevent line breaks */
+  overflow: hidden;          /* Hide overflow text (optional) */
+  text-overflow: ellipsis;
+  line-height: 2; /* or try 1.8, or in px like 30px */
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #e1503e;
+}
+
+.feature-section {
+  padding: 60px 0;
+  background-color: #e1503e;
+  display: flex;
+  justify-content: center;
+}
+
+.content-wrapper {
+  display: flex;
+  max-width: 1200px;
+  width: 90%;
+  align-items: center;
+  gap: 60px;
+}
+
+.feature-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.feature-text {
+  max-width: 550px;
+}
+
+.feature-text h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #0c0c1f;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.feature-text h2 span {
+  font-weight: 900;
+  display: inline-block;
+}
+
+.feature-text p {
+  font-size: 0.8rem;
+  color: #0c0c1f;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #0c0c1f;
+  color: #9aeac6;
+  border: 2px solid #9aeac6;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #9aeac6;
+  color: #0c0c1f;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0px;
+  padding: 60px 0px 10px;
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: #e1503e;
+}
+
+.image-gallery img {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  object-fit: cover;
+}
+
+
+.pricing-events-section {
+  background-color: #e1503e;
+  color: #0c0c1f;
+  padding: 80px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.pricing-wrapper,
+.events-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.pricing-wrapper h2,
+.events-wrapper h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.pricing-card {
+  background-color: transparent;
+  text-align: center;
+  padding: 20px;
+  width: 250px;
+}
+
+.pricing-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+
+.price {
+  font-size: 4rem;
+  font-weight: medium;
+  margin: 10px 0 20px;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+.pricing-card ul li {
+  margin-bottom: 8px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0c0c1f;
+  color: #9aeac6;
+  text-decoration: none;
+  border: 2px solid #9aeac6;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #9aeac6;
+  color: #0c0c1f;
+}
+
+.events-wrapper {
+  width: 100%;
+  padding: 60px 0px 10px;
+  color: #0d0b26;
+}
+
+.event-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 25px 0;
+  width: 100%;
+  gap: 30px;
+  color: #0d0b26;
+}
+
+.event-info {
+  flex: 1; /* let it expand */
+  min-width: 250px;
+  color: #0d0b26;
+}
+
+.event-info h4 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.event-info p {
+  font-size: 0.95rem;
+  text-align: left;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #0d0b26;
+  margin: 15px 0;
+}
+
+.pricing-wrapper h2 {
+  text-align: center;
+}
