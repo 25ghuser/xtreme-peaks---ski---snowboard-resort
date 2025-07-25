@@ -92,9 +92,9 @@
     color: #9aeac6;
 }
 
-.footer a {
+.footer li a {
 	text-decoration: none;
-	color: inherit;
+	color: #9aeac6;
 }
 
 ul li
